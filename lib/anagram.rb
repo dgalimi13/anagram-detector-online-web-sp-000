@@ -6,7 +6,7 @@ class Anagram
 end
 
 def match(array)
-  new_array
+  new_array = []
  array.each do |element|
    if element == element
      new_array << element
