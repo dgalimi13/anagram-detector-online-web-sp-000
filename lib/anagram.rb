@@ -12,4 +12,6 @@ def match(array)
      new_array << element
 end
   new_array
+end 
+
 end
