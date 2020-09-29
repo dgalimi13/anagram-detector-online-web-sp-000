@@ -5,7 +5,7 @@ class Anagram
   @word = word
 end
 
-def match(array)
+def self.match(array)
   new_array = []
   array.each do |element|
     if element == element
