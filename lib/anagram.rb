@@ -11,7 +11,8 @@ def match(array)
    if element == element
      new_array << element
 end
-  new_array
 end 
+new_array
+end
 
 end
