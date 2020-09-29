@@ -7,8 +7,12 @@ end
 
 def match(array)
   
-  
-  array
+  new_array = []
+  array.each do |element|
+    if element == element
+      element << new_array
+  end
+  new_array
 end 
   
 end
